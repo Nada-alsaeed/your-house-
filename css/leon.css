@@ -1,0 +1,197 @@
+*{
+    color: black; font-family:Verdana, Geneva, Tahoma, sans-serif;text-align: center;justify-content: center;
+}
+body p {
+    font-size: 22px;  
+   
+}
+body span{
+    font-size: 28px;
+}
+.header{
+background-image:url("https://th.bing.com/th/id/R.26ef3b38a36e1a7dd19024a9673f4a8c?rik=dqIvbwSq%2fujDdg&pid=ImgRaw&r=0" );
+background-attachment: fixed; height: 100vh;background-repeat: round;width: 100%;
+}
+.bran{
+    display: block; ; font:bolder 20px ; width: auto; height: 40px;color: rgb(11, 21, 29);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; text-decoration: none; font-size: 30px;
+    }
+.wel{
+    position: fixed;
+    top: 0;
+    left: 0;
+  height:-webkit-fill-available;
+    width:auto; background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+    flex-direction: column;
+}
+ a{
+    color: aliceblue;
+    text-decoration: none;
+    display:block;
+    padding: 20px 5px;
+    text-align: center;
+    transition: all .3s;
+    font-size: 14px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aliceblue; 
+    background-color: black;
+}
+
+.wel a i{
+    display:block;
+    width: 100%;
+     text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 26px;
+     color: aliceblue;
+}
+.wel a i:hover{
+    color: aliceblue;
+}
+.back2{
+    background-image:url(../img/R\ \(1\).jpeg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: round;
+    width: 100%;
+}
+.imge{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.read {
+    max-width: 450px;
+    height: auto; 
+    display: flex;
+    margin-left: 35%; 
+    font-size: 28px;
+}
+.read span{
+    font-size: 30px; color: rgb(45, 39, 102);
+}
+.pr{
+    max-width: 650px;
+    text-align: center;
+    margin-left: 27%;
+}
+.ieme {
+    width: 600px; height: 550px; margin-left: 65px; display: inline-block;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.image{
+    float: left;
+    margin-left: 65px;
+    position: relative;
+    top: 15%;
+    left:0 ;
+}
+.par{
+    width:400px;
+    margin: auto;
+    float: left;
+}
+.z{
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+}
+.z_img img{ 
+    width:700px;
+    float:right; 
+    margin-right: 65px;
+    position: relative;
+    top: 15%;
+    right: 0
+}
+.z_p{
+    width: 400px; 
+    float: right;
+    margin: auto;
+}
+button{
+    background-color: rgb(31, 25, 19); color: rgb(255, 255, 255);  border-radius: 10%;
+    width: 60px; height: 40px;
+}
+.m2{
+    background-color: black;
+    background-attachment: fixed; 
+    height: 100vh;
+    width: 100%;
+    display: flex;justify-content: center;
+}
+.m2 p{
+    color: rgb(255, 255, 255);width: 500px;
+}
+.m5{
+    display: flex; 
+    justify-content: center; 
+    height: 100vh; 
+}
+.back3{
+    background-image: url(../img/R\ \(3\).jpeg);
+    background-attachment: fixed; height: 100vh;background-repeat: round;width: 100%;
+}
+.n1{
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+}
+.flat{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.flat1{
+    width: 20%;
+    text-align: center;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.flat p{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.flat span{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.flat1 i{
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+.ic{
+    font-size: 25px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.ic a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.flat2{
+    width: 20%;
+    text-align: center;
+    float: left;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+}
+/*
+.m{
+    background-attachment: fixed;
+}*/
